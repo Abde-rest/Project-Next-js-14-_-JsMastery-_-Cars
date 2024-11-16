@@ -19,7 +19,9 @@ body {
   grid-template-columns: repeat(4, 1fr); /* ثلاث أعمدة متساوية */
   gap: 10px; /* المسافة بين العناصر */
 }
-
+.blurfilter {
+  filter: blur(5px);
+}
 /* csss loder  */
 .loader {
   width: 48px;
@@ -39,4 +41,11 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+#card:hover #Btn-card {
+  display: block;
+}
+.center-div{
+  transform: translate(-50%,-50%);
 }
